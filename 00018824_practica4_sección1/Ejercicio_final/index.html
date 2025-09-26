@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Ejercicio Final - Guía 4</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>📅 Mis Recordatorios</h1>
+        
+        <select id="dia">
+            <option value="">Selecciona un día</option>
+            <option value="lunes">Lunes</option>
+            <option value="martes">Martes</option>
+            <option value="miércoles">Miércoles</option>
+            <option value="jueves">Jueves</option>
+            <option value="viernes">Viernes</option>
+            <option value="sábado">Sábado</option>
+            <option value="domingo">Domingo</option>
+        </select>
+
+        <input type="text" id="mensaje" placeholder="Mensaje personalizado (opcional)">
+
+        <button onclick="verificarRecordatorio()">Ver mi recordatorio</button>
+
+        <div id="resultado" class="resultado">
+            
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
